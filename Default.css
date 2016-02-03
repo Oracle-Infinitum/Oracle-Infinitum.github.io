@@ -4,11 +4,13 @@
     position: fixed;
     width: auto;
 }
+
+/* --Navigation START--*/
 @keyframes FadeIn_2
 {
     0% { opacity: 0;}
     80% { opacity: 0;}
-    100% { opacity: .4}
+    100% { opacity: 1}
 }
 nav
 {
@@ -24,10 +26,13 @@ nav ul
 }
 nav li
 {
+    color: dimgray;
     display: inline;
     margin-left: 5px;
     margin-right: 5px;
 }
+/* --Navigation END-- */
+
 @keyframes FadeIn
 {
     0% {opacity: 0;}
@@ -35,9 +40,10 @@ nav li
 }
 #Header_Text
 {
-    animation-timing-function: ease-in;
-    animation-duration: 4s;
     animation-name: FadeIn;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    
     font-family: 'Microsoft Himalaya';
     text-align: center; 
     width: 98%;
@@ -60,6 +66,13 @@ nav li
     margin-top: -10%;
     width: 80%
 }
+
+/* --Links START--*/
+a:link
+{
+    text-decoration: none;
+    color: dimgray;
+}
 a:visited
 {
     text-decoration: none;
@@ -70,3 +83,10 @@ a:hover
     opacity: 1;
     color: white;
 }
+a:current
+{
+    text-decoration: underline;
+    color: white;
+    opacity: .8;
+}
+/* --Links END-- */

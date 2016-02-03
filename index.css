@@ -55,6 +55,8 @@
     animation-name: FadeIn;
     animation-duration: 8s;
 }
+
+/* --Links START-- */
 #Home_link
 {
     font-family: 'Microsoft Himalaya';
@@ -67,6 +69,8 @@
     animation-name: HomeLink;
     animation-duration: 23s;
 }
+
+/* Consider making these their own partial or class */
 a:link
 {
     text-decoration: none;
@@ -87,6 +91,9 @@ a:active
     text-decoration: none;
     color: white;
 }
+/* --Links END-- */
+
+/* --Animations START-- */
 @keyframes HomeLink
 {
     0% {opacity: 0;}
@@ -100,6 +107,9 @@ a:active
     70% { opacity: 1;}
     100% { opacity: 0;}
 }
+/* --Animation END-- */
+
+/* --Background_Video START-- */
 video {
     
     animation: reverse;
@@ -112,3 +122,4 @@ video {
     width: auto;
     position: static;
 }
+/* -- Background_Video END-- */
