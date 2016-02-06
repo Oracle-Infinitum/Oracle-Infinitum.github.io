@@ -66,12 +66,12 @@
     position: absolute;
     top: 40%;
     margin-top: -10px;
-    animation: HomeLink 23s ease-in;
+    animation: HomeLink 0s;
 
 }
 #Home_link2
 {
-    animation: pulse 2s ease-in-out 25s infinite alternate;
+    animation: pulse 2s ease-in-out 0s infinite alternate-reverse;
     font-family: 'Microsoft Himalaya';
     font-size: 48px;
     color: ghostwhite;
@@ -91,12 +91,12 @@ a:link
 a:visited
 {
     text-decoration: none;
-    color: ghostwhite;
+    color: white;
 }
 a:hover
 {
     text-decoration: none;
-    color: ghostwhite;
+    color: white;
 }
 a:active
 {
@@ -115,7 +115,7 @@ a:active
 @keyframes pulse
 {
     from { text-shadow: none; opacity: 1;}
-    to { text-shadow: 0 0 10px white; opacity: 1;}
+    to { text-shadow: 0 0 20px white; opacity: 1;}
 }
 @keyframes FadeIn
 {
