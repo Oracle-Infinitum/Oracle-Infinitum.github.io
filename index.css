@@ -2,7 +2,7 @@
 {
     background-color: black;
     overflow: hidden;
-
+    background-size: cover;
 }
 #Container
 {
