@@ -1,0 +1,98 @@
+﻿body 
+{
+    background-color: black;
+    position: fixed;
+    width: auto;
+}
+
+/* --Navigation START--*/
+@keyframes FadeIn_2
+{
+    0% { opacity: 0;}
+    80% { opacity: 0;}
+    100% { opacity: 1}
+}
+nav
+{
+    font-size: 24px;
+    animation-name: FadeIn_2;
+    animation-duration: 3s;
+    text-align: center;
+    position: page;
+    width: 100%;
+    display: inline;
+    float: left;
+    color: dimgray;
+    margin-top: -6%;
+    margin-left: -4%;
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav li
+{
+    color: dimgray;
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* --Navigation END-- */
+
+@keyframes FadeIn
+{
+    0% {opacity: 0;}
+    100% { opacity: 1;}
+}
+#Header_Text
+{
+    animation-name: FadeIn;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    
+    font-family: 'Microsoft Himalaya';
+    text-align: center; 
+    width: 98%;
+    margin-top: 4%;
+    margin-left: 1%;
+    padding-left: 2%;
+    color: white;
+    font-size: 42px;
+}
+#WitchCraft_Box
+{
+    width: 90%;
+    float: left;
+    margin-left: 1%;
+    padding-left: 8%;
+}
+#Landing_Background
+{ 
+    float: left;
+    margin-top: -8%;
+    width: 80%
+}
+
+/* --Links START--*/
+a:link
+{
+    text-decoration: none;
+    color: dimgray;
+}
+a:visited
+{
+    text-decoration: none;
+    color: dimgray;
+}
+a:hover
+{
+    opacity: 1;
+    color: white;
+}
+a:current
+{
+    text-decoration: underline;
+    color: white;
+    opacity: .8;
+}
+/* --Links END-- */
