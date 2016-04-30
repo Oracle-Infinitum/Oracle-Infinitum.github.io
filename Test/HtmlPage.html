@@ -5,20 +5,25 @@
     <meta charset="utf-8" />
     <link href="StyleSheet.css" rel="stylesheet" />
 </head>
+
 <body>
-    <div id="Container">
-        <!--<div id="Text_Wrapper">
-            <div id="Text_001">If a machine is indistinguisable </div>
-            <div id="Text_002">from that of a human being</div>
-            <div id="Text_003">in every way...</div>
-            <div id="Text_004">Should it posses the same rights as a human?</div>
-        </div>-->
-        <div id="Home_link">Artificial Intelligence</div>
-        <div id="Home_link2"><a href="Default.html">Artificial Intelligence</a></div>
-        <video loop="loop" autoplay="autoplay">
-            <source src="Images/Wix Website Editor-1.mp4" type="video/mp4" />
-        </video>
-    </div>
+    <ul class="topnav">
+        <li><a href="#argument">Argument</a></li>
+        <li><a href="#sources">content</a></li>
+        <li><a href="#yadayada">content</a></li>
+        <li><a class="active" href="#home">Home</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+        </li>
+    </ul>
+
+    <script>
+        function myFunction()
+        {
+            document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+        }
+    </script>
 
 </body>
+
 </html>
